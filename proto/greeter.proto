@@ -1,8 +1,10 @@
 syntax = "proto3";
 
-option go_package = "github.com/smagesh2106/simple-server"; // Don't forget to change!
-
 package helloworld;
+
+//option go_package = "github.com/smagesh2106/simple-grpc";
+option go_package = "./proto";
+
 
 // The greeting service definition.
 service Greeter {
